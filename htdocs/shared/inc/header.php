@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<title><?php echo $siteSetting["title"]; ?> | SiteName</title>
+	<title><?php echo $siteSetting['title']; ?> | SiteName</title>
 
 	<!-- META -->
 	<meta charset="utf-8">

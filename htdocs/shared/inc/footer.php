@@ -6,17 +6,16 @@
 <!-- end container -->
 
 <!-- SCRIPT -->
-<script src="/shared/js/lib/barba.min.js"></script>
-<script src="/shared/js/lib/d3.min.js"></script>
-<script src="/shared/js/lib/underscore-min.js"></script>
-<script src="/shared/js/lib/jquery-3.2.1.min.js"></script>
+<script src="/shared/js/lib/jquery-2.1.3.min.js"></script>
+<script src="/shared/js/lib/jquery.pjax.js"></script>
 <script src="/shared/js/lib/jquery.easing.1.3.js"></script>
-<script src="/shared/js/lib/velocity.min.js"></script>
-<script src="/shared/js/vue.min.js"></script>
+<script src="/shared/js/lib/TweenMax.min.js"></script>
+<script type="module" src="/shared/js/common.js"></script>
+
 <?php
 //ページ独自のjsファイル読み込み
 foreach ($siteSetting['js'] as $value) {
-    echo '<script src="'. $value . '" /></script>' . "\n";
+    echo '<script type="module" src="'. $value . '" /></script>' . "\n";
 }
 ?>
 
