@@ -10,15 +10,17 @@ export class Window {
     constructor(Object) {
         //extend
         object.extend(this, Object);
-        //property
+        //initialize
+        this.init();
+        this.event();
+    }
+    init() {
         this.scroll = this.root.element.$window.scrollTop();
         this.width = this.root.element.$window.width();
         this.height = this.root.element.$window.height();
         this.brekPoint = {
             first: 769
         };
-        //initialize
-        this.event();
     }
     event() { //event
         let self = this;

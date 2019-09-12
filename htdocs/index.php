@@ -1,7 +1,7 @@
 <?php
     $siteSetting = Array(
         'type' => 'top',
-        'title' => 'トップ',
+        'title' => 'Top',
         'css' => Array('./style.css'),
         'js' => Array('./shared/js/index.js')
     );
@@ -14,9 +14,7 @@
 <div class="main-wrapper">
     <main class="main">
         <div class="front-wrapper">
-            <div class="front">
-                <img src="https://www.aws-s.com/assets/img/animals/panda/ouhin2.jpg">
-            </div>
+            <div class="front"></div>
         </div>
     </main>
 </div>

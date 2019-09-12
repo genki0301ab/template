@@ -21,8 +21,12 @@ export class Loader {
     }
     loading() { //loading
         let self = this;
-        this.root.element.$container.fadeOut(function() {
-            self.root.element.$loaderWrapper.fadeIn();
+        return new Promise(function(resolve) {
+            self.root.element.$container.fadeOut(function() {
+                self.root.element.$loaderWrapper.fadeIn(function() {
+                    resolve();
+                });
+            });
         });
     }
     loaded() { //loaded
