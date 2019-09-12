@@ -23,10 +23,6 @@ export class Element {
         this.$body = $('body');
         this.$loaderWrapper = $('.loader-wrapper');
         this.$container = $('.container');
-        //extend
-        if(Object != null) {
-            object.extend(this, Object);
-        }
         return this;
     }
     update() { //update
