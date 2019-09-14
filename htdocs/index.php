@@ -14,7 +14,10 @@
 <div class="main-wrapper">
     <main class="main">
         <div class="front-wrapper">
-            <div class="front"></div>
+            <div class="front">
+                <h1>このページはトップページです。</h1>
+                <a href="./other" style="text-decoration: underline; color: #ff0000;">その他のページへ</a>
+            </div>
         </div>
     </main>
 </div>

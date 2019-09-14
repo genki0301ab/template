@@ -35,7 +35,7 @@
 
 <body class="<?php echo $siteSetting["type"]; ?>">
 <div class="loader-wrapper">
-	<div class="loader"></div>
+	<div class="loader">Now loading</div>
 </div>
 <!-- end loader -->
 
