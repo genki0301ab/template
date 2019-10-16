@@ -9,13 +9,12 @@
 <script src="/shared/js/lib/jquery-2.1.3.min.js"></script>
 <script src="/shared/js/lib/jquery.pjax.js"></script>
 <script src="/shared/js/lib/jquery.easing.1.3.js"></script>
-<script src="/shared/js/lib/TweenMax.min.js"></script>
 <script type="module" src="/shared/js/common.js"></script>
 
 <?php
 //ページ独自のjsファイル読み込み
 foreach ($siteSetting['js'] as $value) {
-    echo '<script type="module" src="'. $value . '" /></script>' . "\n";
+    echo '<script src="'. $value . '" /></script>' . "\n";
 }
 ?>
 

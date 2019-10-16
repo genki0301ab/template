@@ -3,7 +3,7 @@
         'type' => 'top',
         'title' => 'Top',
         'css' => Array('./style.css'),
-        'js' => Array('./shared/js/index.js')
+        'js' => Array('./index.js')
     );
 ?>
 
