@@ -88,3 +88,11 @@ select {
 	display: block;
 	white-space: pre;
 }
+
+@media screen and(max-width: $breakPoint) {
+
+.container {
+    min-width: 100%;
+}
+
+}

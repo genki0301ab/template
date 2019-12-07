@@ -42,6 +42,10 @@
 <div class="container">
 <div class="header-wrapper">
 	<header class="header">
+        <div class="header-inner">
+            <h1 class="header__logo">Template</h1>
+        </div>
+        <!-- end header-inner -->
 	</header>
 </div>
 <!-- end header-wrapper -->

@@ -93,3 +93,9 @@ select:focus {
   display: block;
   white-space: pre;
 }
+
+@media screen and (max-width: 769px) {
+  .container {
+    min-width: 100%;
+  }
+}
